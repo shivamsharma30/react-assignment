@@ -1,4 +1,4 @@
 import { combineReducers } from "redux";
 import productInfo from "./productInfo";
-
-export default combineReducers({ productInfo });
+import cartInfo from "./cartInfo";
+export default combineReducers({ productInfo, cartInfo });
