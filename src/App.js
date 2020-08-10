@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.scss";
 
 const hist = createBrowserHistory();
-
+var newVariable;
 function App() {
   return (
     <Provider store={store}>

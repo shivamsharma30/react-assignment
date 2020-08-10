@@ -21,3 +21,4 @@ const Header = () => {
 };
 
 export default Header;
+export const sum = (a,b)=> a+b;
