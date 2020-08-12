@@ -11,13 +11,15 @@ function PayWithPayPal(props) {
     window.paypal
       .Buttons({
         createOrder: (data, actions) => {
+          // return '8JU3097226456720S';
           return actions.order.create({
+            intent: 'CAPTURE',
             purchase_units: [
               {
                 description: 'store checkout',
                 amount: {
                   currency_code: 'INR',
-                  value: 10.0,
+                  value: 9.0,
                 },
               },
             ],
@@ -26,7 +28,7 @@ function PayWithPayPal(props) {
         onApprove: async (data, actions) => {
           const order = await actions.order.capture();
           setPaidFor(true);
-          console.log('ORDER', order);
+          console.log('ORDER', data, order);
         },
         onError: (err) => {
           setError(err);
