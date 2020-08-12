@@ -1,0 +1,31 @@
+<testExecutions version="1">
+<file path="D:\Boppo\react-assignment\src\App.test.js">
+<testCase name="First Test" duration="16" />
+<testCase name="second Test" duration="8" />
+</file>
+<file path="D:\Boppo\react-assignment\src\components\Header\header.test.js">
+<testCase name="Sum Function Test" duration="6560">
+<failure message="Error"><![CDATA[SyntaxError: D:\Boppo\react-assignment\src\components\Header\component.js: Support for the experimental syntax &apos;jsx&apos; isn&apos;t currently enabled (12:5):
+
+  10 | 
+  11 |   return (
+&gt; 12 |     &lt;div className=&quot;header-wrapper&quot;&gt;
+     |     ^
+  13 |       &lt;Link to=&quot;/&quot; className= &quot;nav-link&quot;&gt;Home&lt;/Link&gt;
+  14 |       &lt;Link to=&quot;/cart&quot; className=&quot;nav-link&quot;&gt;
+  15 |         &lt;Badge badgeContent={cartProducts.length} color=&quot;secondary&quot;&gt;
+
+Add @babel/plugin-transform-react-jsx (https://git.io/vb4yd) to the &apos;plugins&apos; section of your Babel config to enable transformation.
+    at Parser._raise (D:\Boppo\react-assignment\node_modules\@babel\parser\src\parser\error.js:60:45)
+    at Parser.raiseWithData (D:\Boppo\react-assignment\node_modules\@babel\parser\src\parser\error.js:55:17)
+    at Parser.expectOnePlugin (D:\Boppo\react-assignment\node_modules\@babel\parser\src\parser\util.js:170:18)
+    at Parser.parseExprAtom (D:\Boppo\react-assignment\node_modules\@babel\parser\src\parser\expression.js:1182:22)
+    at Parser.parseExprSubscripts (D:\Boppo\react-assignment\node_modules\@babel\parser\src\parser\expression.js:548:23)
+    at Parser.parseMaybeUnary (D:\Boppo\react-assignment\node_modules\@babel\parser\src\parser\expression.js:528:21)
+    at Parser.parseExprOps (D:\Boppo\react-assignment\node_modules\@babel\parser\src\parser\expression.js:319:23)
+    at Parser.parseMaybeConditional (D:\Boppo\react-assignment\node_modules\@babel\parser\src\parser\expression.js:271:23)
+    at Parser.parseMaybeAssign (D:\Boppo\react-assignment\node_modules\@babel\parser\src\parser\expression.js:219:21)
+    at Parser.parseParenAndDistinguishExpression (D:\Boppo\react-assignment\node_modules\@babel\parser\src\parser\expression.js:1356:16)]]></failure>
+</testCase>
+</file>
+</testExecutions>

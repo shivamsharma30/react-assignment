@@ -1,0 +1,19 @@
+.header-wrapper {
+  height: 50px;
+  width: 100%;
+  background-color: #030388;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .nav-link {
+    color: #ffffff;
+    text-decoration: none;
+
+    .MuiBadge-root {
+      margin: 0 15px 0 0;
+      cursor: pointer;
+    }
+  }
+}

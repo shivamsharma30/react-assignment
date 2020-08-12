@@ -1,0 +1,15 @@
+.product-cart-wrapper {
+  img {
+    width: 100%;
+  }
+
+  .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h5 {
+      margin: 0 0 10px 0;
+    }
+  }
+}
